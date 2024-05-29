@@ -1,16 +1,6 @@
-# github_client
 
-A new Flutter project.
+![github-banner](https://github.com/vernonthedev/github_desktop_client/assets/108737724/85e766d0-b254-4014-ba27-4cfed5dd22ea)
 
-## Getting Started
+# Github Linux Desktop Client
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ Manage your GitHub repositories and actions offline with ease using our GitHub Desktop Client for Linux. Designed for developers who need to work seamlessly without an internet connection, this intuitive application allows you to clone, commit, push, and pull repositories, as well as manage GitHub Actions workflows directly from your desktop. Whether you're on the go or in a restricted network environment, our client ensures you stay productive and in control of your code.

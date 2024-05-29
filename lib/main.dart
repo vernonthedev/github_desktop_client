@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'GitHub Desktop Client',
+      title: 'GitHubZero',
       theme: ThemeData.light().copyWith(
         primaryColor: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       ),
       themeMode: ThemeMode.system, // or ThemeMode.light/dark
       home: const MyHomePage(
-        title: 'GitHub Desktop Client',
+        title: 'GithubZero',
       ),
     );
   }

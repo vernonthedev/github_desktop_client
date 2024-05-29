@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
       ),
       themeMode: ThemeMode.system, // or ThemeMode.light/dark
       home: const MyHomePage(
-        title: 'GitHub Desktop Client (developed by vernonthedev)',
+        title: 'GitHub Desktop Client',
       ),
     );
   }

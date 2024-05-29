@@ -17,13 +17,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'GitHub Desktop Client',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+      theme: ThemeData.light().copyWith(
+        primaryColor: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        useMaterial3: true,
       ),
+      darkTheme: ThemeData.dark().copyWith(
+        primaryColor: Colors.blue,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      themeMode: ThemeMode.system, // or ThemeMode.light/dark
       home: const MyHomePage(
-          title: 'GitHub Desktop Client(developed by vernonthedev)'),
+        title: 'GitHub Desktop Client (developed by vernonthedev)',
+      ),
     );
   }
 }

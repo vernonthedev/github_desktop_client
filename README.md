@@ -4,8 +4,8 @@
 <div align="center">
  
 # Github Linux Desktop Client
- 
- ![images](https://github.com/vernonthedev/github_desktop_client/assets/108737724/9310f54a-c686-4ec9-bc87-82f6418ef69c)
+ ![icon](https://github.com/vernonthedev/github_desktop_client/assets/108737724/42fbae41-51bc-4b77-8f7c-89b1129b909a)
+
 
 </div>
 

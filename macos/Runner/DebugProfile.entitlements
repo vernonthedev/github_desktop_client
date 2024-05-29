@@ -8,5 +8,8 @@
 	<true/>
 	<key>com.apple.security.network.server</key>
 	<true/>
+	 <!-- Added this entry to support http calls during macos sandboxing -->
+        <key>com.apple.security.network.client</key>
+        <true/>
 </dict>
 </plist>

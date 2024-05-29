@@ -3,7 +3,7 @@ import 'package:github/github.dart';
 
 import 'github_oauth_credentials.dart';
 import 'src/github_login.dart';
-import 'src/github_summary.dart'; // Add this import
+import 'src/github_summary.dart';
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +36,6 @@ class MyHomePage extends StatelessWidget {
     return GithubLoginWidget(
       builder: (context, httpClient) {
         return Scaffold(
-          // Modify from here
           appBar: AppBar(
             title: Text(title),
             elevation: 2,
@@ -45,7 +44,7 @@ class MyHomePage extends StatelessWidget {
             gitHub: _getGitHub(httpClient.credentials.accessToken),
           ),
         );
-      }, // to here.
+      }, //
       githubClientId: githubClientId,
       githubClientSecret: githubClientSecret,
       githubScopes: githubScopes,
@@ -54,6 +53,5 @@ class MyHomePage extends StatelessWidget {
 }
 
 GitHub _getGitHub(String accessToken) {
-  // Modify from here
   return GitHub(auth: Authentication.withToken(accessToken));
 }
